@@ -1,0 +1,178 @@
+/* @font-face {
+    font-family: "MontserratLight";
+    src: url("/fonts/Montserrat/Montserrat-Light.ttf") format("truetype"); 
+    font-weight:lighter;
+}
+
+@font-face {
+    font-family:"MontserratRegular";
+    src: url("/fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:"MontserratSemiBold";
+    src: url("/fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+    font-weight: 900;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;900&display=swap');
+
+html{
+    font-size: 16px;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+header {
+    background-color: #fff;
+    position: sticky !important;
+    top: 0;
+    z-index: 1020;
+}
+
+#logo {
+    width: 100%;
+    position: relative;
+    padding-top: 5px;
+}
+
+#logo img{
+    float: right;
+}
+
+.bloc-text {
+    position: relative;
+}
+
+.bloc-text p {    
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    color: #d76723;
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+
+.bloc-img img{
+    width: 100%;
+}
+
+#myTab{
+    text-align: center;
+}
+
+#myTab li{
+    display: inline-block;
+    float: none;
+}
+
+#myTab li a{
+    font-weight: 600;
+    color: #000;
+}
+
+div#myTabContent {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+#myTabContent label {
+    display: block;
+    margin: 0.5em 0;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#myTabContent input{
+    display: block;
+    border: none;
+    border-bottom: 3px solid #dddddd;
+    background: transparent;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 0.75em;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+
+#myTabContent input:focus{
+    outline: none !important;
+    border-color: #000;
+}
+
+#myTabContent div{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#myTabContent button{
+    border-radius: 0;
+    padding: 10px 20px;
+    min-width: 50%;
+    background: #3131ff;
+    font-size: 18px;
+    transition: 0.5s all;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+}
+#myTabContent button:hover{
+    background: #d76723;
+}
+.centered-box .input-card {
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 8px 0;
+    min-height: 47px;
+    width: 60%;
+    background-color: #f8f9fa;
+    display: flex;
+}
+
+.centered-box .input-card .icon-input {
+    margin: 10px;
+    font-size: 16px;
+    color: #495057;
+}
+.MuiSvgIcon-root {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+}
+.MuiSvgIcon-root {
+    font-size: 20px!important;
+}
+
+.centered-box .input-card .input {
+    border: 2px solid transparent;
+    border-radius: 4px;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+.select-input-card {
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 8px 0;
+    min-height: 47px;
+    width: 60%;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+}
